@@ -224,7 +224,7 @@ void caricaPrestiti(ElencoUtenti *elenco) {
     }
     fclose(fp);
 }
-//=== Salva tutti i prestiti gai restituiti nello storico
+//=== Salva tutti i prestiti già restituiti nello storico
 void salvaStorico(ElencoUtenti *elenco) {
     FILE *fp = fopen("../data/storico.csv", "w");
     if (!fp) {

@@ -127,7 +127,7 @@ void modificaLibro(CatalogoLibri *catalogo) {
             printf("Scelta non valida.\n");      
             return;                                
     }
-    printf("Libro modificato con successo.\n");  // Conferma la modifica avvenuta con successo
+    printf("Libro modificato con successo.\n");  // Conferma la modifica
 }
 
 // Funzione per rimuovere un libro dal catalogo

@@ -31,7 +31,7 @@ struct NodoPrestito {
 };
 
 typedef struct NodoNotifica {
-    char               *messaggio;
+    char *messaggio;
     struct NodoNotifica *next;
 } NodoNotifica;
 

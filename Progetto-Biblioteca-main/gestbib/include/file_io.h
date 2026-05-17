@@ -6,8 +6,8 @@
 #include "prestiti.h"
 
 // Percorsi dei file CSV
-#define FILE_LIBRI    "../data/libri.csv"
-#define FILE_UTENTI   "../data/utenti.csv"
+#define FILE_LIBRI "../data/libri.csv"
+#define FILE_UTENTI "../data/utenti.csv"
 #define FILE_PRESTITI "../data/prestiti.csv"
 
 // Salvataggio
